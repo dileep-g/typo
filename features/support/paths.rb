@@ -17,7 +17,9 @@ module NavigationHelpers
       '/'
     when /^the new article page$/
       '/admin/content/new'
-
+    when /^the categories page$/i
+      '/admin/categories/new'
+      
     # Add more mappings here.
     # Here is an example that pulls values out of the Regexp:
     #
